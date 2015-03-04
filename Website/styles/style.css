@@ -1,6 +1,6 @@
 article {
     color: white;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
 }
 
@@ -18,6 +18,8 @@ html {
 
 footer {
     background: white;
+    clear: left;
+    margin-top: 1em;
 }
 
 
