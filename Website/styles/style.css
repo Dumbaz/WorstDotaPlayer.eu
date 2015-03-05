@@ -1,24 +1,20 @@
-article {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 80px;
+html {
+    background:linear-gradient(black, #313131);
 }
 
 body {
     font-family: 'Exo 2', sans-serif;
 }
 
-h1 {
-    font-size: 75px;
-}
-
-html {
-    background:linear-gradient(black, #313131);
-}
-
 main {
     position: relative;
+}
+
+article {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30vh;
 }
 
 footer {
@@ -28,9 +24,9 @@ footer {
     width: 100%;
 }
 
-
-
-
+h1 {
+    font-size: 75px;
+}
 
 h2 {
     font-size: 46px;
@@ -44,13 +40,16 @@ b {
     text-transform: uppercase;
 }
 
-
 .hover_img a {
     position: relative;
     color: inherit;
     text-decoration: inherit;
 }
 
-.hover_img a span { position: absolute; display: none; z-index: 99; }
+.hover_img a span {
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
 
 .hover_img a:hover span {display: block; }
